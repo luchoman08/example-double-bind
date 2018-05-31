@@ -30,6 +30,12 @@ import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { SearchComponent } from './search/search.component';
 import { TvComponent } from './tv/tv.component';
 import { TvDetailComponent } from './tv-detail/tv-detail.component';
+import { FatherComponent } from './father/father.component';
+import { ChildComponent } from './child/child.component';
+import { MoviesExampleComponent } from './movies-example/movies-example.component';
+import { CastComponent } from './cast/cast.component';
+import { NewActorComponent } from './new-actor/new-actor.component';
+import { NewMovieComponent } from './new-movie/new-movie.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +51,13 @@ import { TvDetailComponent } from './tv-detail/tv-detail.component';
     TvComponent,
     TvDetailComponent,
     SafePipe,
-    RoundPipe
+    RoundPipe,
+    FatherComponent,
+    ChildComponent,
+    MoviesExampleComponent,
+    CastComponent,
+    NewActorComponent,
+    NewMovieComponent
     
   ],
   imports: [

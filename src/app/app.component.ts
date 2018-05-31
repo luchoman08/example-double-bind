@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  boolvar = false;
+  valueSwitch = '7';
+  items = ['first', 'second', 'third']
 }

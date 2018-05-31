@@ -1,0 +1,11 @@
+<div>
+    <h1> Father zone</h1>
+  father works!
+  the child is incoming <br />
+  Message from child: {{message_from_child}}
+  <br />
+  <h1> Child zone</h1>
+  <app-child [(father_message)] = "message_to_child" (say_to_father) = "onChildMessage($event)"></app-child>
+
+<br />
+</div>

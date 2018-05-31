@@ -1,0 +1,14 @@
+
+Register new Actor <br>
+
+<form>
+<label> Actor name:</label> 
+<input [(ngModel)] = "actor.name"/> <br>
+<label>Country of Origin:</label>
+<input [(ngModel)]="actor.country_origin"/><br>
+</form>
+
+<button (click)=registerActor()> Register actor</button>
+
+{{actor.name}}
+{{actor.country_origin}}

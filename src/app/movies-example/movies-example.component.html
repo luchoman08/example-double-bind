@@ -1,0 +1,20 @@
+<h1> Principal component</h1>
+
+My first movie
+<label>ID</label>
+<input [(ngModel)]="movie.id"/><br>
+
+<label>Name</label>
+<input [(ngModel)]="movie.name"><br>
+
+
+<hr>
+<app-new-actor ></app-new-actor>
+
+<hr>
+
+<h1>Cast</h1> 
+
+<ul *ngIf="movie.cast">
+    <li *ngFor="let actor of movie.cast">{{actor.name}} from {{actor.country_origin}}</li>
+</ul>
